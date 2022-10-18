@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+        @font-face {
+            font-family: 'medieval';
+            src: url(fonts/Olondon_.otf);
+        }
+
+        body {
+            
+        }
+
+        div:hover h1 {
+            background-color: rgba(61, 61, 119, 0.445);
+            width: 600px;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: rgb(219, 153, 53);
+            background-color: brown;
+            width: 600px;
+        }
+
+        .padrao {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+        }
+
+        .google {
+            font-family: 'tangerine', sans-serif;
+            font-size: 2.5em;
+            font-weight: bolder;
+        }
+
+        .local {
+            font-family: 'medieval';
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>Fontes em CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum consequatur magni dignissimos reprehenderit provident voluptatibus quibusdam sapiente eaque aliquid molestiae dolor qui reiciendis non, nisi illum expedita ullam ab!</p>
+    </div>
+    
+    <h2 class="padrao">Podemos configurar fontes padrão do sistema.</h2>
+    <h2 class="google">Ou então usar uma fonte do google fonts.</h2>
+    <h2 class="local">Ou ainda usar um arquivo local de fontes.</h2>
+</body>
+</html>
