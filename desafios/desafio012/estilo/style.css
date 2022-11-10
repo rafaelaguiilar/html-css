@@ -1,2 +1,36 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header {
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding: 50px;
+}
+
+header > h1 {
+    text-transform: capitalize;
+    font-family: 'Passion One';
+    font-weight: 213px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+
+    padding: 30px;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    
+}
