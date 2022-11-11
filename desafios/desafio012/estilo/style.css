@@ -14,6 +14,7 @@ header {
     text-align: center;
 
     padding: 50px;
+    margin-bottom: 100px;
 }
 
 header > h1 {
@@ -30,7 +31,59 @@ header > h1 {
 header > a {
     color: white;
     text-decoration: none;
-    text-align: center;
+    text-align: center; 
+}
 
+section {
+    line-height: 2em;
+    font-size: 74px;
+    font-family: 'Sriracha', cursive;
+
+    margin: 100px 0px 100px 30px;
+}
+
+.flor {
     
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/14/22/22/ladybug-3475779_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+
+}
+
+section.flor > p {
+    width: 950px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.paginas {
+    background-image: url(http://www.taugor.com.br/wp-content/uploads/2018/05/reconhecimento-de-manuscrita--676x380.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+section.paginas > p {
+    width: 950px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+footer > p > a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+
 }
